@@ -10,3 +10,14 @@ A shell is a command interpreter, it takes basic commands and interprets them mu
 
 # 1.4 Forking and Cloning Reflection
 
+
+
+To create a new repository first open up GitHub and log into your account. Navigate to the top of the page and click the “+” a the top right of the screen and select “New Repository”. In the “Repository name” section write in a name for the new repository. Select if you want the repository to be public (open to others) or private (you select who can view and commit) and any licenses you want to add. Then click “Create repository” at the bottom of the page.
+
+To fork a repository, navigate to the GitHub page that contains the repository you want to duplicate. At the top right of the page, click the button that says “Fork”. Select the location (user) where you want to create the forked repository.
+
+To clone a repository, navigate to the repository in GitHub you want to clone. Near the top of the page, find the button labeled “HTTPS” and copy the URL for this repo. Now, on the command line navigate to the folder where you want to place your cloned repository. Once in the folder, type in “git clone <URL>” where you paste for <URL> the location that you copied from GitHub. If you type “ls” to list the contents of the directory, you should find the cloned repository there with all the contents.
+
+One would fork a repository instead of creating a new one if you wanted to start off using the contents of a particular repo without starting from scratch. This would save you time assuming you want to base your code off of what was already created by someone else.
+
+I didn’t have too much trouble setting up Git or GitHub. I did notice that the location of the URL on GitHub has changed since the tutorial video was created. It made me notice how many other functions there are available on GitHub, curious if and when we’ll get to them.
