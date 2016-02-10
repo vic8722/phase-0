@@ -1,0 +1,23 @@
+# 1.1 Think About Time Reflection
+
+Two time management/productivity tools that I found particularly interesting involved breaking things down into small portions and breaking up work into time increments to make it more manageable. I learned that often when you have a big goal or task to complete it can make the task much more difficult to complete if it seems too large to complete. By breaking the larger task into several micro tasks it can be much easier to get things actually done. Using smaller amounts of time, 25 minutes or 45 minutes, where one tries to focus on a task and then take a short break can often improve one's productivity. This is known as "time boxing", where instead of working indefinitely to complete a task, one works for a specific amount of time towards completion and then evaluates at the end of the time how much was accomplished. In Phase 0 it would be pretty easy to get overwhelmed if I'm not able to complete or understand an assignment, by giving myself a certain amount of time to focus on an assignment then take a break or go back and ask for help I think it could help from getting overwhelmed or working too long without getting anywhere.
+
+I currently don't have a very specific way of managing my time. I plan during DBC to use the time-boxing method of picking an assignment and giving myself an amount of time to work on it alone. Then after taking a break, go back and work to complete it. If it's taking longer than I've boxed out, then use the opportunity to ask for help.
+
+# 1.2 The Command Line Reflection
+
+A shell is a command interpreter, it takes basic commands and interprets them much like most programming languages except a much more basic version of it. Bash is a type of shell, named after one of the authors of the original Unix shells. Bash is the default shell. I found the material relatively simple to go through, however I think the most difficult part is going to be putting it to actual use on a daily basis instead of using ‘Finder’. I was able to use all of the commands, however I did have some issues with the rmdir command, I looked it up and MacOS creates some hidden files sometimes when creating folders. I think a few of the most important commands are going to be cd, ls, and man. pwd = print working directory, ls = list contents (of current directory), mv = move (file, directory), cd = change directory, ../ = jump up one directory, touch = create new file, mkdir = make new directory, less = display the contents of the file where you can page through the contents, rmdir = remove directory, rm = remove file, help (man) = get more info about a command.
+
+# 1.4 Forking and Cloning Reflection
+
+
+
+To create a new repository first open up GitHub and log into your account. Navigate to the top of the page and click the “+” a the top right of the screen and select “New Repository”. In the “Repository name” section write in a name for the new repository. Select if you want the repository to be public (open to others) or private (you select who can view and commit) and any licenses you want to add. Then click “Create repository” at the bottom of the page.
+
+To fork a repository, navigate to the GitHub page that contains the repository you want to duplicate. At the top right of the page, click the button that says “Fork”. Select the location (user) where you want to create the forked repository.
+
+To clone a repository, navigate to the repository in GitHub you want to clone. Near the top of the page, find the button labeled “HTTPS” and copy the URL for this repo. Now, on the command line navigate to the folder where you want to place your cloned repository. Once in the folder, type in “git clone <URL>” where you paste for <URL> the location that you copied from GitHub. If you type “ls” to list the contents of the directory, you should find the cloned repository there with all the contents.
+
+One would fork a repository instead of creating a new one if you wanted to start off using the contents of a particular repo without starting from scratch. This would save you time assuming you want to base your code off of what was already created by someone else.
+
+I didn’t have too much trouble setting up Git or GitHub. I did notice that the location of the URL on GitHub has changed since the tutorial video was created. It made me notice how many other functions there are available on GitHub, curious if and when we’ll get to them.
