@@ -1,3 +1,3 @@
-![Index Wireframe](wireframe-index.png)
+![Index Wireframe](imgs/wireframe-index.png)
 
-![Blog Index Wireframe](wireframe-blog-index.png)
+![Blog Index Wireframe](imgs/wireframe-blog-index.png)
