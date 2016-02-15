@@ -1,1 +1,1 @@
-![Site Map](SiteMap.tiff)
+![Site Map](SiteMap.png)
