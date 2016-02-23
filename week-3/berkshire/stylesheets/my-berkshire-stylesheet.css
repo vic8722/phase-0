@@ -1,0 +1,99 @@
+* {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a:link {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+span {
+  display: block;
+
+}
+
+.columns {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  -columns: 2;
+  list-style-position: inside;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1em;
+}
+
+h5 {
+  font-weight: bold;
+  text-align: center;
+  font-size: .8em;
+}
+
+.horizontal-rule {
+  display: block;
+  width: 100%;
+  border-top: 1px solid black;
+
+}
+
+.geico-section {
+  text-align: center;
+}
+
+.update {
+    color: black;
+    font-size: .8em;
+}
+/*
+.left-column {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+.right-column {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+*/
+
+
+/*
+- What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to know the relative location of the stylesheet respective to the HTML file where you are linking it.
+
+
+- What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We tried at one point to use floats to make the two different columns for the unordered list, but did not have much luck. For some reason, it kept adding the subsequent sections of the page in with it and moving everything to one side or the other. It was suprisingly difficult to get the site to display as we wanted it to!
+
+
+- What CSS did you use to modify the element style (like size, color, etc.)
+
+font-size, font-weight, text-align, font-variant, color.
+
+
+- Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we used classes. We chose to use classes because we had multiple instances of most of the changes that we wanted to make.
+
+- When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I definitely think that the code we made is cleaner than the code on the actual website. They didn't use a stylesheet at all, and made all their changes in the actual HTML itself.
+
+*/
