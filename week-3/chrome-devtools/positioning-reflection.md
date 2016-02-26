@@ -1,11 +1,20 @@
+Exercise 1
 ![Exercise 1](imgs/Exercise1.png)
+Exercise 2
 ![Exercise 2](imgs/Exercise2.png)
+Exercise 3
 ![Exercise 3](imgs/Exercise3.png)
+Exercise 4
 ![Exercise 4](imgs/Exercise4.png)
+Exercise 5
 ![Exercise 5](imgs/Exercise5.png)
+Exercise 6
 ![Exercise 6](imgs/Exercise6.png)
+Exercise 7
 ![Exercise 7](imgs/Exercise7.png)
+Exercise 8
 ![Exercise 8](imgs/Exercise8.png)
+Exercise 9
 ![Exercise 9](imgs/Exercise9.png)
 
 - How can you use Chrome's DevTools inspector to help you format or position elements?
