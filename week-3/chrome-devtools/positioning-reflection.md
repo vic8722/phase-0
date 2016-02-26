@@ -1,6 +1,6 @@
-![Exercise 1](/imgs/Exercise1.png "Exercise 1")
+![Exercise 1](/imgs/Exercise1.png)
 
-![alt text](/imgs/Exercise1.png "Exercise 1")
+![alt text](/imgs/Exercise1.png)
 
 
 
