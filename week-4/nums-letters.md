@@ -6,16 +6,16 @@
  - Integer division rounds down to the nearest whole number while float division does the "actual math" needed to get the exact answer. To someone who doesn't know anything about programming I'd say float gives you the "correct" answer while integer gives you a close answer.
 
 Hours in a year:
- '''
+```
 puts 365 * 24
 => 8760
-'''
+```
 
 Minutes in a decade:
-'''
+```
 puts 10 * 365 * 24 * 60
 => 5256000
- '''
+```
 
 - How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
