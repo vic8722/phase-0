@@ -11,21 +11,30 @@
   # If +list_of_nums+ is empty the method should return nil
 
   # Your Solution Below
-  def smallest_integer(list_of_nums)
+
+  # def smallest_integer(list_of_nums)
+  #   # Your code goes here!
+  #   if list_of_nums.length == 0 then return nil end
+  #     counter = 0
+  #     smallest_number = list_of_nums[0]
+  #     while counter <= (list_of_nums.length - 1)
+
+  #       if list_of_nums[counter] < smallest_number
+  #         smallest_number = list_of_nums[counter]
+  #       end
+
+  #       counter += 1
+  #     end
+  #     return smallest_number
+  # end
+
+
+# refactored code
+
+def smallest_integer(list_of_nums)
     # Your code goes here!
     if list_of_nums.length == 0 then return nil end
 
-      counter = 0
-      smallest_number = list_of_nums[0]
-      while counter <= (list_of_nums.length - 1)
+      return list_of_nums.min
 
-        if list_of_nums[counter] < smallest_number
-          smallest_number = list_of_nums[counter]
-        end
-
-        counter += 1
-      end
-
-      return smallest_number
-
-    end
+end
