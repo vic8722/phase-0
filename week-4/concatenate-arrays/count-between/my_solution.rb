@@ -36,7 +36,6 @@ def count_between(list_of_integers, lower_bound, upper_bound)
   # Your code goes here!
   if list_of_integers.length == 0 then return 0
   end
-  new_array = list_of_integers.select { |x| x.between?(lower_bound,upper_bound) }
-  return new_array.length
+  return list_of_integers.count { |x| x.between?(lower_bound,upper_bound) }
 
 end
