@@ -1,4 +1,5 @@
-# 0. Pseudocode
+# 0. Pseudocode (pad!)
+
 
 # What is the input? array, minimum delimiter, and value defaulted at nil
 # What is the output? (i.e. What should the code return?) permanently modified version of the original array
@@ -11,23 +12,7 @@
 #end loop / iterate to next value
 #return updated array
 
-
-# 1. Initial Solution
-=begin
-def pad!(array, min_size, value = nil) #destructive - return modified version of the original object
-  return array if array.length >= min_size
-  i = array.length
-  while i <= min_size - 1 #while i < min_size
-    array << value
-    i += 1
-  end
-  array
-end
-p pad!([1,2,3], 5, "duck")
-=end
-
-
-# 0. Pseudocode
+# 0. Pseudocode (pad)
 
 # What is the input? array, minimum delimiter, and value defaulted at nil
 # What is the output? (i.e. What should the code return?) new array with the values appended to the end (not changing original array)
@@ -51,7 +36,21 @@ p pad!([1,2,3], 5, "duck")
 #return new array
 
 
+# 1. Initial Solution (pad!)
+=begin
+def pad!(array, min_size, value = nil) #destructive - return modified version of the original object
+  return array if array.length >= min_size
+  i = array.length
+  while i <= min_size - 1 #while i < min_size
+    array << value
+    i += 1
+  end
+  array
+end
+p pad!([1,2,3], 5, "duck")
+=end
 
+# 1. Initial Solution (pad)
 # def pad(array, min_size, value = nil) #non-destructive - return new object
 #   # Your code here
 #   return array if array.length >= min_size
@@ -70,7 +69,7 @@ p pad!([1,2,3], 5, "duck")
 # end
 
 
-# 3. Refactored Solution
+# 3. Refactored Solution (pad!)
 def pad!(array, min_size, value = nil)
   while array.length < min_size
     array.push(value)
@@ -78,6 +77,7 @@ def pad!(array, min_size, value = nil)
   array
 end
 
+# 3. Refactored Solution (pad)
 def pad(array, min_size, value = nil)
   pad_array = array.clone
   while pad_array.length < min_size
@@ -95,6 +95,8 @@ p first_array
 
 
 =begin
+
+Reflection:
 
 - Were you successful in breaking the problem down into small steps?
 
