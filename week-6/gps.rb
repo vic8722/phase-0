@@ -68,3 +68,22 @@ p serving_size_calc("cookie", 10)
 
 
 #  Reflection
+
+=begin
+- What did you learn about making code readable by working on this challenge?
+
+I think when you're writing code it's easy to think something is readable and makes sense to others... but then reading others' code it makes a lot more sense what is 'readable'. I definitely now see the importance of using good variable names and writing straightforward code.
+
+- Did you learn any new methods? What did you learn about them?
+
+It was part of the code we factored out, but I learned the .values_at() method for accessing multiple values within an array. I also learned that it's not necessary when you don't have an array to access.
+
+- What did you learn about accessing data in hashes?
+
+Items in a hash can be accessed the same way you access items in an array, but instead of using an index number you use the hash key to return the value.
+
+- What concepts were solidified when working through this challenge?
+
+Using the raise ArgumentError.new again helped me to retain the syntax for this method of error calling.
+
+=end
