@@ -1,4 +1,7 @@
 ![alt-text](imgs/one-to-one.jpg "One-to-One Schema")
+
+This is a one-to-one schema because each person can have only 1 (active) drivers license and each drivers license can only belong to 1 person. Just because you are a person, does not mean you necessarily have to have a drivers license though.
+
 ![alt-text](imgs/many-to-many.jpg "Many-to-Many Schema")
 
 - What is a one-to-one database?
