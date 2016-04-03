@@ -204,3 +204,19 @@ puts(bingo.check_bingo)
 
 
 # Reflection
+=begin
+
+- What concepts did you review or learn in this challenge?
+
+I reviewed making references to nested arrays and using classes.
+
+
+- What is still confusing to you about Ruby?
+
+I still have a little trouble with some aspects of classes. I was running into some issues when calling the functions and making sure that it was returning a value or not, and then figuring out how to determine to return bingo overall (or not). Initially I was only returning the value from the last call to a subfunction in my class.
+
+- What are you going to study to get more prepared for Phase 1?
+
+I am going to go through several more of the Ruby challenges hopefully and then go back and review more javascript.
+
+=end
