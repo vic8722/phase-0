@@ -105,5 +105,4 @@ I didn't have a particularly hard time on any part of this challenge.
 
 It made more sense to use an object, the order of the list isn't particularly important and it's much easier to look up the items on the list as the keys than to have to search through an array to find the item that matches.
 
-
 */
