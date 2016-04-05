@@ -104,5 +104,4 @@ I didn't have a particularly hard time on any part of this challenge.
 - Did an array or object make more sense to use and why?
 
 It made more sense to use an object, the order of the list isn't particularly important and it's much easier to look up the items on the list as the keys than to have to search through an array to find the item that matches.
-
 */
