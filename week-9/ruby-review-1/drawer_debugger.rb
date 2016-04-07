@@ -130,3 +130,19 @@ kitchen_drawer.contents.each do |x|
 end
 
 p count == 3 # Should be true
+
+# Reflection
+=begin
+- What concepts did you review in this challenge?
+
+In this challenge we reviewed classes and how to read/interpret error messagese that come from ruby.
+
+- What is still confusing to you about Ruby?
+
+I'm not sure generally, but in this challenge I got a little confused when using the contents array. I was trying to refer to the variables in it assuming they were just string names... not remembering that this array was created with instances of the Silverware class so they were not just strings.
+
+- What are you going to study to get more prepared for Phase 1?
+
+I'm going to try to keep going through these different Ruby challenges to get as much practice as possible!
+
+=end
